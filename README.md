@@ -1,12 +1,50 @@
-# React + Vite
+# 📟 Real-Time Log Monitoring Dashboard (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **React frontend** for a real-time log monitoring and analytics system.  
+It connects to a Node.js + MongoDB backend using REST APIs and Socket.IO, displaying real-time logs, filters, charts, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 📡 Real-time log updates using **Socket.IO**
+- 📊 Log level statistics with **Bar** and **Pie Charts** (via Recharts)
+- 🔍 Filters: Level, Service, Search by message
+- 📚 Paginated log display
+- 🔄 Real-time toggle or manual refresh mode
+- 📈 Live error rate and log count
+- 🎨 Responsive and clean UI with basic CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+### ⚙️ Prerequisites
+
+- **Node.js** (v14 or newer)
+- Backend server running at `http://localhost:5000`  
+  👉 Refer to the [Backend README](../backend/README.md) to set it up
+---
+
+## 📦 Installation
+
+Follow these steps to set up and run the project locally:
+
+1. **Clone the frontend repository**
+
+```bash
+git clone https://github.com/developerdesigner18/Frontend-React-Task.git
+cd log-monitoring-frontend
+
+
+## 📦 Installation
+
+```bash
+npm install
+
+### ⚙️ Project Execution
+
+```bash
+npm run dev
+
+---
